@@ -38,10 +38,10 @@ const projects = [
 
 type Props = {};
 
-function Projects({}: Props) {
+function Projects({ }: Props) {
   return (
     <div className="max-w-xs md:max-w-3xl lg:max-w-7xl xl:max-w-7xl mx-auto py-6 mt-10 ">
-      <Heading>Recent Projects</Heading>
+      <Heading>Front-End Projects</Heading>
       <div className="projects grid grid-cols-1 lg:grid-cols-3 md:gap-4">
         {projects.map(({ title, id, image, badges, socials }) => (
           <Project
@@ -54,7 +54,7 @@ function Projects({}: Props) {
         ))}
       </div>
       <div className="flex justify-center mt-6">
-        <Link href="https://github.com/jassBawa" target="_blank">
+        <Link href="https://github.com/Gurashish0" target="_blank">
           <IconButton
             value="View More"
             icon={<BsGithub />}

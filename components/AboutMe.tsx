@@ -34,7 +34,7 @@ const skills = [
 
 type Props = {};
 
-export default function AboutMe({}: Props) {
+export default function AboutMe({ }: Props) {
   return (
     <section>
       <div className="max-w-xs md:max-w-3xl lg:max-w-7xl xl:max-w-7xl mx-auto py-6 mt-10">
@@ -54,13 +54,12 @@ export default function AboutMe({}: Props) {
                 transition={{ delay: 0.2, duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                I&apos;m 21 years old frontend developer, with 1+ year of
-                experience in building modern and scaleable frontends with react
-                and next-js. I love to learn new technology and deliver
-                successful projects.
+                I&apos;m 22 years old newbie frontend developer, who loves
+                to learn new skills. I am certified in Blockchain(Basics) from NIELIT Mohali.
+                Now I am exploring the concepts of Frontend Development and It's quite FUN!!
                 <br />
-                When I am not coding I love to learn about Video editing 🎥 &
-                Color grading.
+                When I am not coding I love to read books &
+                writing some stuff.
                 <br />
               </motion.p>
               <motion.p
@@ -80,9 +79,9 @@ export default function AboutMe({}: Props) {
           <div className="image relative mt-16 md:mt-0 flex items-center justify-center md:order-2 ">
             <div
               className="absolute w-[350px] h-[400px]"
-              // initial={{ opacity: 0 }}
-              // whileInView={{ opacity: 1 }}
-              // viewport={{ once: true }}
+            // initial={{ opacity: 0 }}
+            // whileInView={{ opacity: 1 }}
+            // viewport={{ once: true }}
             >
               <Image
                 src="/vectordrawings.png"

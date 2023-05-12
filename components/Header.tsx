@@ -39,7 +39,7 @@ function Header() {
               // style={{ y: -90 }}
               transition={{ duration: 0.8 }}
             >
-              Jass Bawa
+              Gurashish Singh
             </motion.span>
           </div>
         </Link>

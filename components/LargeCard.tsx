@@ -49,14 +49,14 @@ export default function LargeCard({ }: Props) {
         </h3>
         <div className="buttons flex items-center gap-3">
           <Link
-            href="https://www.linkedin.com/in/jaspreet-singh-bawa/"
+            href="https://www.linkedin.com/in/gurashish-singh-53986a240/"
             target="_blank"
           >
             <Button value={"Contact"} />
           </Link>
 
           <Link
-            href="https://rxresu.me/jassibawa904/jaspreet-singh"
+            href="https://www.canva.com/design/DAFLEryQtOI/c4UPaL4dxjrqF94I63SbPA/edit?utm_content=DAFLEryQtOI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target="_blank"
           >
             <IconButton
