@@ -56,7 +56,7 @@ export default function AboutMe({ }: Props) {
               >
                 I&apos;m 22 years old newbie frontend developer, who loves
                 to learn new skills. I am certified in Blockchain(Basics) from NIELIT Mohali.
-                Now I am exploring the concepts of Frontend Development and It's quite FUN!!
+                Now I am exploring the concepts of Frontend Development and It&apos;s quite FUN!!
                 <br />
                 When I am not coding I love to read books &
                 writing some stuff.
