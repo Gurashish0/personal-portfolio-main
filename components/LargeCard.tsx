@@ -7,12 +7,13 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 type Props = {};
 
-export default function LargeCard({}: Props) {
+export default function LargeCard({ }: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi, This is Jass Bawa!",
-      "A passionate web developer.",
-      "Loves to develop solutions.",
+      "Hi, This is Gurashish Singh",
+      "A newbie web developer.",
+      "Web 3.0 passionate",
+      "And a Literature Enthusiasat",
     ],
     loop: true,
     delaySpeed: 2000,
